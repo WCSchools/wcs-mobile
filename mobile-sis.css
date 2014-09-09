@@ -1,0 +1,57 @@
+/*---- Mobile Styles ----*/
+body {background: #ffffff; font: 100% Arial, Helvetica, Verdana, sans-serif; color: #000;}
+address, blockquote, body, caption, center, dd, dir, div, dl, dt, form, h1, h2, h3, h4, h5, h6, menu, th, td, ol, ul { font: Arial, Helvetica, Verdana, sans-serif; color: #000;}
+img {border:0} /* makes all images default border=0 */
+.ViewFullSite, .ViewFullSite a:link {font-size: 0.6em; padding: 4px 0 4px 0; color: #666666; text-decoration:none;}
+.ClientLogo {padding: 4px 0 4px 0; border-bottom: solid 3px #0F0FFA;}
+.ClientLogo img { display: block; margin-left: auto; margin-right: auto; }
+.ClientName {font-size: 1.3em; font-weight: bold; padding: 0.8em 0 0.8em 0; color: #0F0FFA;}
+
+/*---- Links  ----*/
+a:link, a:visited {color: #2d5bca; text-decoration: underline;}
+a:hover {color: #000; text-decoration: underline;}
+a:active {color: #000; text-decoration: underline;}
+
+ul.MainLinksMenu {list-style-type: none; margin: 0; padding: 0 0 12px 0; }
+ul.MainLinksMenu li { background:none; margin-top: 1px; font: bold 1em Arial, Helvetica, Verdana, sans-serif; font-variant: small-caps; letter-spacing: 0.2em;}
+ul.MainLinksMenu a:link, .MainLinksMenu a:visited, ul.MainLinksMenu a:hover, .MainLinksMenu a:active  {display: block; padding: 8px 0 8px 24px; color: white; text-decoration: none; background: #0F0FFA url(Images/arrow.png) no-repeat 4px center;}
+ul.MainLinksMenu a:hover, .MainLinksMenu a:active  {color: #0F0FFA; background: #b3b3b3;}
+
+.ModuleHeadline {background: none repeat scroll 0 0 #C1C1C1; border: 1px solid #666666; color: #333333; font-size: 1em; font-weight: bold; padding: 5px 0.8em 5px 0;text-transform: uppercase;}
+.ModuleHeadline a:link, .ModuleHeadline a:visited, .ModuleHeadline a:hover, .ModuleHeadline a:active {color: #333333; text-decoration:none;}
+.ArticlesModule { padding: 0 0 5px 5px;}
+.SpotlightModule { padding: 0.8em 0 0 25px;}
+.HighlightClass {border-bottom:solid 1px #CCCCCC; margin-bottom:5px; padding-bottom:5px;}
+
+ul.NewsModule {list-style-type: none; margin: 0; padding-left: 1em; }
+ul.NewsModule li { background:none; margin: 0.5em; font:1em Arial, Helvetica, Verdana, sans-serif; border-bottom: solid 1px #CCCCCC;}
+ul.NewsModule a:link, .NewsModule a:visited, ul.NewsModule a:hover, .NewsModule a:active {display: block; padding: 0.5em 0 0.5em 1.2em; color: #333; text-decoration: none; background: transparent url(Images/arrow2.png) no-repeat 4px center;}
+ul.NewsModule a:hover, .NewsModule a:active {color: #000; }
+.NewsDate { font-weight:bold; padding: 4px 0 4px 0;  border-top: #CCCCCC 1px solid; font: 0.8em; }
+.NewsContinue { padding: 6px 0 6px 0;  }
+
+.ViewAllLink {font:bold 11px Arial, Helvetica, Verdana, sans-serif; margin: 0; padding: 5px 0 12px 15px; }
+.ViewAllLink a:link, .ViewAllLink a:visited {color: #2d5bca; text-decoration: none; }
+.ViewAllLink a:hover, .ViewAllLink a:active {color: #333333; text-decoration: none; }
+
+.SideNavModule {padding: 0.8em 0 20px 0; }
+.SideNavTitle {font:bold 14px Arial, Helvetica, Verdana, sans-serif; display: block; padding: 2px 0 2px 6px; color: #fff; text-decoration: none; background: #666;}
+ul.SideNavList {list-style-type: none; margin: 0; padding: 0 0 2px 0; }
+ul.SideNavList li { background:none; margin: 1px 0 0 0; font:bold 12px Arial, Helvetica, Verdana, sans-serif;}
+ul.SideNavList a:link, .SideNavList a:visited, ul.SideNavList a:hover, .SideNavList a:active  {display: block; padding: 2px 0 2px 20px; color: #333; text-decoration: none; background: #ccc url(Images/arrow2.png) no-repeat 4px center;}
+ul.SideNavList a:hover, .SideNavList a:active  {color: #fff; background: #b3b3b3;}
+
+.QuickLinksModule {padding: 0.8em 0 0.8em 15px; border-bottom: solid 1px #999999;}
+.QuickLinkCategory {font-weight:bold; padding: 4px 0 4px 0;  border-bottom: #CCCCCC 1px solid; font: 12px;}
+.HomeAddress {text-align:center; font: 0.8em Arial, Helvetica, Verdana, sans-serif; color: #666; padding: 0.8em; border-top: solid 1px #ccc;}
+
+.MobileComment {font: italic 11px Arial, Helvetica, Verdana, sans-serif; color: #666; padding-bottom: 6px; }
+
+.TeacherName {font-size: 1em; font-weight: bold; padding: 5px 0 2px 25px; border-bottom: #cccccc 1px solid;}
+.TeacherGrade {font-size: 1em;  padding: 2px 0 5px 35px; color: #666666; text-transform: uppercase;}
+
+.SchoolName {font-size: 1em; font-weight:bold; padding: 4px 0 5px 25px; color: #666666; }
+.SchoolInfo {font-size: 1em;  padding: 2px 0 5px 35px; color: #666666; border-bottom: #cccccc 1px solid;}
+.ParentInfoCategories { font-weight:bold; font-size: 1em;  padding: 5px 0 5px 0.8em; color: #666666; border-top: #cccccc 1px solid;}
+.ParentInfoSchools { font-size: 1em;  padding: 5px 0 5px 0.8em; color: #666666; border-top: #cccccc 1px solid;}
+.AboutContent {padding: 0.8em; min-height: 250px;}
